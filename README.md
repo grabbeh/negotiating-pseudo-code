@@ -5,7 +5,7 @@ The idea is to describe a series of negotiating rules in pseudo code that could 
 
 The rules generally assume a client - provider relationship and as most of the time a provider will provide its own standard terms, are written to assist the client in improving the terms to their benefit.
 
-```
+```javascript
 if (thirdPartyIndemnity && !conductOfClaims){
    clause.add(conductOfClaims)
 }
